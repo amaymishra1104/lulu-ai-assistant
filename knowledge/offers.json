@@ -1,0 +1,22 @@
+[
+  {
+    "title": "20% Off Electronics",
+    "category": "Electronics",
+    "validTill": "30 June 2026"
+  },
+  {
+    "title": "Buy 1 Get 1 Free",
+    "category": "Groceries",
+    "validTill": "15 June 2026"
+  },
+  {
+    "title": "Flat 15% Off Fashion",
+    "category": "Fashion",
+    "validTill": "20 June 2026"
+  },
+  {
+    "title": "10% Off Home Appliances",
+    "category": "Home Appliances",
+    "validTill": "25 June 2026"
+  }
+]
