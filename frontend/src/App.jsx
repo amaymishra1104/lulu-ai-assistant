@@ -6,6 +6,13 @@ import ChatInput from "./components/ChatInput";
 
 const API_URL = "http://localhost:5000/chat";
 
+const QUICK_REPLIES = [
+  "What are your return policies?",
+  "How much is delivery?",
+  "What is your refund process?",
+  "Tell me about courier delivery",
+];
+
 const createMessage = (role, content, id = `${role}-${Date.now()}`) => ({
   id,
   role,
@@ -107,11 +114,15 @@ function App() {
           </p>
         </div>
 
-        <ChatWindow messages={messages} loading={loading} />
+        <ChatWindow messages={messages} />
 
         {error ? <p className="error-banner">{error}</p> : null}
 
-        <ChatInput onSend={sendMessage} isSending={loading} />
+        <ChatInput
+          onSend={sendMessage}
+          isSending={loading}
+          quickReplies={QUICK_REPLIES}
+        />
       </main>
     </div>
   );

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-function ChatInput({ onSend, isSending }) {
+function ChatInput({ onSend, isSending, quickReplies = [] }) {
   const [message, setMessage] = useState("");
   const textAreaRef = useRef(null);
 
@@ -33,11 +33,35 @@ function ChatInput({ onSend, isSending }) {
     }
   };
 
+  const handleQuickReply = (reply) => {
+    if (isSending) {
+      return;
+    }
+
+    onSend(reply);
+  };
+
   return (
     <form className="chat-input" onSubmit={handleSubmit}>
       <label className="sr-only" htmlFor="chat-message">
         Type your message
       </label>
+
+      {quickReplies.length > 0 ? (
+        <div className="quick-replies" aria-label="Quick reply suggestions">
+          {quickReplies.map((reply) => (
+            <button
+              key={reply}
+              type="button"
+              className="quick-replies__chip"
+              onClick={() => handleQuickReply(reply)}
+              disabled={isSending}
+            >
+              {reply}
+            </button>
+          ))}
+        </div>
+      ) : null}
 
       <div className="chat-input__composer">
         <textarea
