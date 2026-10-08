@@ -1,0 +1,162 @@
+[
+  {
+    "country": "UAE",
+    "city": "Dubai",
+    "name": "Lulu Hypermarket Al Qusais",
+    "address": "Al Qusais, Dubai",
+    "phone": "+97142988880",
+    "timing": "08:00 AM - 01:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Dubai",
+    "name": "Lulu Hypermarket Dubai Festival City",
+    "address": "Dubai Festival City Mall",
+    "phone": "+97142318888",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Dubai",
+    "name": "Lulu Hypermarket Silicon Oasis",
+    "address": "Silicon Central Mall",
+    "phone": "+97143888880",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Dubai",
+    "name": "Lulu Hypermarket Arabian Center",
+    "address": "Arabian Center Mall",
+    "phone": "+97142388880",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Abu Dhabi",
+    "name": "Lulu Hypermarket Khalidiyah",
+    "address": "Khalidiyah Mall",
+    "phone": "+97126355333",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Abu Dhabi",
+    "name": "Lulu Hypermarket Mushrif Mall",
+    "address": "Mushrif Mall",
+    "phone": "+97124499900",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Abu Dhabi",
+    "name": "Lulu Hypermarket Al Raha",
+    "address": "Al Raha Mall",
+    "phone": "+97125562800",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Sharjah",
+    "name": "Lulu Hypermarket Al Wahda",
+    "address": "Al Wahda Street",
+    "phone": "+97165588880",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Ajman",
+    "name": "Lulu Hypermarket Ajman",
+    "address": "Ajman City Center",
+    "phone": "+97167418880",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Al Ain",
+    "name": "Lulu Hypermarket Central District",
+    "address": "Central District, Al Ain",
+    "phone": "+97137118600",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "Qatar",
+    "city": "Doha",
+    "name": "Lulu Hypermarket D Ring Road",
+    "address": "D Ring Road, Doha",
+    "phone": "+97444667780",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "Qatar",
+    "city": "Doha",
+    "name": "Lulu Hypermarket Barwa City",
+    "address": "Barwa City",
+    "phone": "+97444778800",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "Oman",
+    "city": "Muscat",
+    "name": "Lulu Hypermarket Al Khuwair",
+    "address": "Al Khuwair",
+    "phone": "+96824501600",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "Oman",
+    "city": "Muscat",
+    "name": "Lulu Hypermarket Darsait",
+    "address": "Darsait",
+    "phone": "+96824799555",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "name": "Lulu Hypermarket Murabba",
+    "address": "Murabba District",
+    "phone": "+966114118222",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "name": "Lulu Hypermarket Jeddah",
+    "address": "Jeddah City",
+    "phone": "+966126070000",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "Bahrain",
+    "city": "Manama",
+    "name": "Lulu Hypermarket Dana Mall",
+    "address": "Dana Mall",
+    "phone": "+97317564000",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "Kuwait",
+    "city": "Al Rai",
+    "name": "Lulu Hypermarket Al Rai",
+    "address": "Al Rai",
+    "phone": "+96522264700",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "Kuwait",
+    "city": "Salmiya",
+    "name": "Lulu Hypermarket Salmiya",
+    "address": "Salmiya",
+    "phone": "+96525760000",
+    "timing": "08:00 AM - 12:00 AM"
+  },
+  {
+    "country": "UAE",
+    "city": "Dubai",
+    "name": "Lulu Hypermarket Dubai Mall Zabeel",
+    "address": "Dubai Mall Zabeel",
+    "phone": "+97142720300",
+    "timing": "10:00 AM - 12:00 AM"
+  }
+]

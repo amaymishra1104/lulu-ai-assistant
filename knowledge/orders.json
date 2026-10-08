@@ -1,0 +1,18 @@
+{
+  "ORD123": {
+    "status": "Delivered",
+    "date": "2026-05-28"
+  },
+  "ORD124": {
+    "status": "Out for Delivery",
+    "date": "2026-06-01"
+  },
+  "ORD125": {
+    "status": "Processing",
+    "date": "2026-06-02"
+  },
+  "ORD126": {
+    "status": "Packed",
+    "date": "2026-06-01"
+  }
+}
