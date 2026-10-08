@@ -4,7 +4,7 @@ import axios from "axios";
 import ChatWindow from "./components/ChatWindow";
 import ChatInput from "./components/ChatInput";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/chat";
+const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:5005/chat";
 
 const QUICK_REPLIES = [
   "What are your return policies?",
