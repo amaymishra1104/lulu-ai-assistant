@@ -28,6 +28,7 @@ function App() {
   ]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [voiceLang, setVoiceLang] = useState("en-US");
 
   const sendMessage = async (message) => {
     const trimmedMessage = message.trim();
@@ -69,7 +70,7 @@ function App() {
 
       if (typeof answer === "string" && answer.trim()) {
         const speech = new SpeechSynthesisUtterance(answer);
-        speech.lang = "en-US";
+        speech.lang = voiceLang;
         window.speechSynthesis.speak(speech);
       }
     } catch (requestError) {
@@ -118,6 +119,25 @@ function App() {
           <p>
             Professional retail support for delivery, returns, refunds, and store policy questions.
           </p>
+          <div style={{ marginTop: "12px", display: "flex", gap: "12px", alignItems: "center" }}>
+            <button 
+              onClick={() => window.speechSynthesis.cancel()} 
+              className="quick-replies__chip"
+              style={{ padding: "6px 12px", fontSize: "0.85rem" }}
+            >
+              🛑 Stop Voice
+            </button>
+            <select 
+              value={voiceLang} 
+              onChange={(e) => setVoiceLang(e.target.value)}
+              style={{ padding: "6px 12px", borderRadius: "12px", border: "1px solid var(--panel-border)", fontSize: "0.85rem", outline: "none" }}
+            >
+              <option value="en-US">English</option>
+              <option value="ar-SA">Arabic</option>
+              <option value="ml-IN">Malayalam</option>
+              <option value="hi-IN">Hindi</option>
+            </select>
+          </div>
         </div>
 
         <ChatWindow messages={messages} />
