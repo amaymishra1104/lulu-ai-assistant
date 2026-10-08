@@ -1,3 +1,5 @@
+import ReactMarkdown from "react-markdown";
+
 function TypingDots() {
   return (
     <span className="typing-dots" aria-label="Assistant is typing">
@@ -22,7 +24,7 @@ function MessageBubble({ role, content }) {
         aria-live={isTyping ? "polite" : undefined}
       >
         <div className="message-bubble__label">{label}</div>
-        {isTyping ? <TypingDots /> : content}
+        {isTyping ? <TypingDots /> : <ReactMarkdown className="markdown-body">{content}</ReactMarkdown>}
       </article>
       {isUser ? <div className="message-avatar message-avatar--user" aria-hidden="true">Y</div> : null}
     </div>
